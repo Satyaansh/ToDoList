@@ -15,6 +15,8 @@ repositories {
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	implementation('javax.servlet:jstl')
+	implementation('javax.persistence:javax.persistence-api:2.2')
+	implementation('javax.validation:validation-api:2.0.1.Final')
 	implementation('org.webjars:bootstrap:3.3.6')
 	implementation('org.webjars:bootstrap-datepicker:1.0.1')
 	implementation('org.webjars:jquery:1.9.1')
